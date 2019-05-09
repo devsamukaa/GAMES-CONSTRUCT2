@@ -1,0 +1,16 @@
+
+KARINA BANNER
+Siga estas instruções:
+Siga as instruções no guia do SDK dos anúncios para dispositivos móveis do Google usando este ID de aplicativo:
+Karina Adventures 2ca-app-pub-3689597630606611~4836638645
+Siga o guia de implementação de banners para integrar o SDK. Você especificará o tipo, o tamanho e o canal do anúncio quando integrar o código usando este ID de bloco de anúncios:
+karina banner ca-app-pub-3689597630606611/6629545542
+
+KARINA INTERSTECIAL
+Em seguida, insira o bloco de anúncios no seu aplicativo
+Siga estas instruções:
+Siga as instruções no guia do SDK dos anúncios para dispositivos móveis do Google usando este ID de aplicativo:
+Karina Adventures 2ca-app-pub-3689597630606611~4836638645
+Siga o guia de implementação de anúncios intersticiais para integrar o SDK. Você especificará o tipo e o canal do anúncio quando integrar o código usando este ID de bloco de anúncios:
+Karina intersticial ca-app-pub-3689597630606611/4618459873
+Leia as políticas da AdMob para garantir que sua implementação siga nossas diretrizes.
