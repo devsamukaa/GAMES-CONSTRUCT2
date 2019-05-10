@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" 
+	xmlns:gap="http://phonegap.com/ns/1.0" 
+	id="com.samtechgames.karinaadventures2" 
+	version="1"
+>
+
+	<name>Karina Adventures 2</name>
+	<description>Help Karina to go to other side of forest</description>
+	<author href="https://www.facebook.com/profile.php?id=100004544832214" email="samuel.rocha.tj@outlook.com">Samuel Rocha</author>
+
+	
+	<content src="index.html"/>
+	<icon src="icon.png" />
+	<icon src="icon-128.png" width="128" height="128" />
+	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
+
+	<platform name="android">
+		<allow-intent href="market:*"/>
+		<allow-intent href="http://*/*"/>
+		<allow-intent href="https://*/*"/>
+		<allow-intent href="tel:*"/>
+		<allow-intent href="sms:*"/>
+		<allow-intent href="mailto:*"/>
+		<allow-intent href="geo:*"/>
+
+		<preference name="enabled" value="true"/>
+		<preference name="deployment-target" value="8.0" />
+		<preference name="android-minSdkVersion" value="16" />
+		<preference name="android-targetSdkVersion" value="26" />
+
+	</platform>	
+
+	
+
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<preference name="phonegap-version" value="cli-8.0.0" />
+	<preference name="orientation" value="landscape" />
+	<preference name="fullscreen" value="true" />
+
+
+	
+
+	
+	<access origin="*" />
+	<plugin name="cordova-plugin-whitelist" />
+	<plugin name="cordova-plugin-admob-free"> 
+		<variable name="ADMOB_APP_ID" value="ca-app-pub-3689597630606611~4836638645" /> 
+	</plugin>
+
+	<!-- Optional splash screen image, e.g.: -->
+	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
+
+</widget>
